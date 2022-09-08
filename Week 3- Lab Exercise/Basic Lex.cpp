@@ -42,7 +42,7 @@ char id[20], num[10],rop[10],spcf[12];
 
  FILE *f1,*f2;
 
- f1=fopen("C:\Users\srini\OneDrive\Desktop\cd.txt","r");
+ f1=fopen("cd.txt","r");
  f2=fopen("output.txt","w");
  char c;
   int j=0;
@@ -191,3 +191,4 @@ fprintf(f2,"comment did not close");
  fclose(f2);
  return 0;
 }
+
